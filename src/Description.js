@@ -34,8 +34,8 @@ const Description = ({ route, navigation }) => {
         <Tab.Navigator    screenOptions={{
             tabBarShowIcon: false,
             tabBarIndicatorStyle: {
-            backgroundColor: 'black', // Cor do indicador ativo
-            height: 3,               // Espessura da linha (opcional)
+            backgroundColor: 'black',
+            height: 3,            
             }
         }}>
             <Tab.Screen name="Resumo" component={RecipeResume} />

@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, FlatList, StyleSheet, Image, TouchableHighlight } from 'react-native';
-import { recipeData } from '../data/recipeData'; // importe seus dados
+import { recipeData } from '../data/recipeData';
 
 const Recipe = ({ navigation }) => {
 
